@@ -58,7 +58,7 @@ es:
     blog:
       ago: atras
       categories: Categorías
-      tags: Nube de tags
+      tags: Etiquetas
       recent_entries: Post recientes
       archive: Archivo
   time:
