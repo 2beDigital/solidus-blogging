@@ -2,9 +2,9 @@
   <h6><%= Spree.t('blog.tags') %></h6>
   <ul class="blog_tag_cloud">
     <% tags = Spree::BlogEntry.visible.tag_counts_on(:tags) %>
-    <% tag_cloud(tags, %w(css1 css2 css3 css4)) do |tag, css_class| %>
+    <% tags.each do |tag| %>
       <li>
-        <%= link_to tag.name, blog_tag_path(tag.name), :class => css_class %>
+        <%= link_to tag.name, blog_tag_path(tag.name), :class => cycle('css1','css2','css3','css4')  %>
       </li>
     <% end %>
   </ul>
