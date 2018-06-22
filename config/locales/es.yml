@@ -2,8 +2,8 @@ es:
   activerecord:
     models:
       spree/blog_entry:
-        one: Blog Entry
-        other: Blog Entries
+        one: Entrada del blog
+        other: Entradas del blog
     attributes:
       spree/blog_entry:
         title: Título
@@ -13,7 +13,7 @@ es:
         published_at: Publicado
         visible: Visible
         author_id: Autor
-        tag_list: Tags
+        tag_list: Etiquetas
         category_list: Categorías
       spree/user:
         nickname: Nickname
@@ -22,7 +22,7 @@ es:
         bio_info: Bio
   spree:
     editing:
-    back_to_blog_list:
+    back_to_blog_list: Volver a lista de entradas
     view_in_store:
     title: Título
     body: Cuerpo
@@ -31,30 +31,30 @@ es:
     published_at: Publicado
     visible: Visible
     author_id: Autor
-    tag_list: Tags
+    tag_list: Etiquetas
     category_list: Categorías
     nickname: Nickname
     website_url: Website URL
     google_plus_url: Google Plus URL
     bio_info: Bio
-    blog: "Blog"
-    blog_entries: "Entradas de Blog"
-    new_blog_entry: "Nuevo post"
-    no_blog_entries: "No existen post"
+    blog: Blog
+    blog_entries: Entradas del Blog
+    new_blog_entry: Nueva articulo
+    no_blog_entries: No existen articulos
     blog_entry_featured_image: Imagen Principal
-    posted_on: Publicado el
-    posted_in: Publicado en
-    tagged: Tagged
+    posted_on: 'Publicado el:'
+    posted_in: 'Publicado en:'
+    tagged: 'Etiquetas:'
     by: por
     blog_read_more: Leer más
     blog_archive: Archivo
-    blog_tag: Tag
+    blog_tag: Etiqueta
     blog_category: Categoría
     blog_author: Autor
+    blog_title: Blog
     admin:
       tab:
         blog_entries: Blog
-        blog:
     blog:
       ago: atras
       categories: Categorías

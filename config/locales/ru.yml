@@ -54,10 +54,10 @@ ru:
     blog_tag: Ключевое слово
     blog_category: Категория
     blog_author: Автор
+    blog_title: Блог
     admin:
       tab:
         blog_entries: Блог
-        blog: Блог
     blog:
       ago: назад
       categories: Категории
