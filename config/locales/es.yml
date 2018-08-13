@@ -52,6 +52,9 @@ es:
     blog_category: Categoría
     blog_author: Autor
     blog_title: Blog
+    meta_title: Meta titulo
+    meta_keywords: Meta palabras
+    meta_description: Meta Descripción
     admin:
       tab:
         blog_entries: Blog

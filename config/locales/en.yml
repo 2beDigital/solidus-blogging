@@ -55,6 +55,9 @@ en:
     blog_category: Category
     blog_author: Author
     blog_title: Blog
+    meta_title: Meta title
+    meta_keywords: Meta keywords
+    meta_description: Meta Description
     admin:
       tab:
         blog_entries: Blog entries

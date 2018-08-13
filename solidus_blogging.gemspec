@@ -4,7 +4,7 @@ $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_blogging'
-  s.version     = '1.1.0'
+  s.version     = '1.1.1'
   s.summary     = 'BloggingSolidus: A Solidus blogging solution'
   s.description = 'Blogging solution for use with the Solidus E-Commerce platform.'
   s.required_ruby_version = '>= 1.9.3'

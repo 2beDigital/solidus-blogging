@@ -22,6 +22,21 @@
       <%= form.text_field :tag_list, value: form.object.tag_list.to_s, class: 'fullwidth' %>
     <% end %>
 
+    <%= form.field_container :meta_title do %>
+      <%= form.label :meta_title, Spree.t(:meta_title) %><br />
+      <%= form.text_field :meta_title, value: form.object.meta_title.to_s, class: 'fullwidth' %>
+    <% end %>
+
+    <%= form.field_container :meta_keywords do %>
+      <%= form.label :meta_keywords, Spree.t(:meta_keywords) %><br />
+      <%= form.text_field :meta_keywords, value: form.object.meta_keywords.to_s, class: 'fullwidth' %>
+    <% end %>
+
+    <%= form.field_container :meta_description do %>
+      <%= form.label :meta_description, Spree.t(:meta_description) %><br />
+      <%= form.text_field :meta_description, value: form.object.meta_description.to_s, class: 'fullwidth' %>
+    <% end %>
+
     <% unless Rails.env.test? %>
       
     <% end %>

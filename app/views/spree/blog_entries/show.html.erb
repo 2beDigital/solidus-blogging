@@ -2,6 +2,15 @@
   <% if !@blog_entry.author.blank? and !@blog_entry.author.google_plus_url.blank? %>
     <link rel="author" href="<%= @blog_entry.author.google_plus_url %>"/>
   <% end %>
+
+  <% if @blog_entry.meta_title.present? -%>
+    <meta name="title" content="<%= @blog_entry.meta_title %>">
+  <% else %>
+    <meta name="title" content="<%= @blog_entry.title %>">
+  <% end %>
+  <meta name="keywords" content="<%= @blog_entry.meta_keywords %>">
+  <meta name="description" content="<%= @blog_entry.meta_description %>">
+
 <% end %>
 
 <% content_for :sidebar do %>
