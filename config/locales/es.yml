@@ -21,9 +21,9 @@ es:
         google_plus_url: Google Plus URL
         bio_info: Bio
   spree:
-    editing:
+    editing: Editando
     back_to_blog_list: Volver a lista de entradas
-    view_in_store:
+    view_in_store: Ver en tienda
     title: Título
     body: Cuerpo
     summary: Sumario

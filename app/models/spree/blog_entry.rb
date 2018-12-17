@@ -75,7 +75,7 @@ class Spree::BlogEntry < ActiveRecord::Base
   end
 
   def create_permalink
-    self.permalink = title.to_url if permalink.blank?
+    self.permalink =  permalink.blank? ? title.to_url : permalink.to_url
   end
 
   def set_published_at
